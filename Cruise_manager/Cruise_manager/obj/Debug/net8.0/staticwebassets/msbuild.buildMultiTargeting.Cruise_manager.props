@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cruise_manager.props" />
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Components\Resorces\**" />
+    <Content Remove="Components\Resorces\**" />
+    <EmbeddedResource Remove="Components\Resorces\**" />
+    <None Remove="Components\Resorces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Resources\logo.png" />
+  </ItemGroup>
+
+</Project>
