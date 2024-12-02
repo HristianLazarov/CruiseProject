@@ -1,27 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Student\\source\\repos\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cruise_manager.bundle.scp.css",
+      "Id": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cruise_manager.bundle.scp.css",
       "PackagePath": "staticwebassets\\Cruise_manager.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Student\\source\\repos\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\logo.png",
+      "Id": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\Ocean.jpg",
+      "PackagePath": "staticwebassets\\Resources\\Ocean.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\logo.png",
       "PackagePath": "staticwebassets\\Resources\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Student\\source\\repos\\Cruise_manager\\Cruise_manager\\wwwroot\\app.css",
+      "Id": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Student\\source\\repos\\Cruise_manager\\Cruise_manager\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Student\\source\\repos\\Cruise_manager\\Cruise_manager\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Student\\source\\repos\\Cruise_manager\\Cruise_manager\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

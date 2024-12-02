@@ -1,16 +1,21 @@
 ﻿@inherits LayoutComponentBase
 
+<script>
+    function toggleNavVisibility() {
+        var navElement = document.getElementsByClassName("sidebar")[0];
+        navElement.style.display = (navElement.style.display === "none") ? "block" : "none";
+    }
+</script>
 <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
 
     <main>
-        <div class="top-row" style="display: grid">
-            <img src="Resources/logo.png" height="50px" width="50px" style="padding="20px">
-           <h1>Cruiser</h1>
-           <button onclick=""> Show NavBar</button>
-
+        <div class="top-row" style="display: inline-flex; inline-size: 100%">
+            <img src="Resources/logo.png" height="50px" width="50px" style="align-self: flex-start">
+            <h1 style="right: 40px; align-self: flex-end">Cruiser</h1>
+            <input type="checkbox" title="Navigation menu" class="navbar-toggler" onclick="toggleNavVisibility()" />
         </div>
 
         <article class="content px-4">
