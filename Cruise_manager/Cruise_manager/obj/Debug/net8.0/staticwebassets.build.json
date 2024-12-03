@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XpoKmijWsuzEk8jqFOEBDIeyk6Abtwg03y6tP+eQ7GA=",
+  "Hash": "39Rxh7UyJmdG4Nn2I5WM3TgLAlXrAAor5j0YJ3tv68Y=",
   "Source": "Cruise_manager",
   "BasePath": "_content/Cruise_manager",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Cruise_manager\\wwwroot",
       "Source": "Cruise_manager",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
       "BasePath": "_content/Cruise_manager",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Cruise_manager.styles.css",
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Cruise_manager.styles.css",
       "SourceId": "Cruise_manager",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Cruise_manager",
       "RelativePath": "Cruise_manager.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Cruise_manager.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Cruise_manager.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cruise_manager.bundle.scp.css",
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cruise_manager.bundle.scp.css",
       "SourceId": "Cruise_manager",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Cruise_manager",
       "RelativePath": "Cruise_manager.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cruise_manager.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cruise_manager.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\app.css",
       "SourceId": "Cruise_manager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
       "BasePath": "_content/Cruise_manager",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Cruise_manager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
       "BasePath": "_content/Cruise_manager",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Cruise_manager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
       "BasePath": "_content/Cruise_manager",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\favicon.png",
       "SourceId": "Cruise_manager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
       "BasePath": "_content/Cruise_manager",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\logo.png",
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\logo.png",
       "SourceId": "Cruise_manager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
       "BasePath": "_content/Cruise_manager",
       "RelativePath": "Resources/logo.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Resources\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\Ocean.jpg",
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\Ocean.jpg",
       "SourceId": "Cruise_manager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
       "BasePath": "_content/Cruise_manager",
       "RelativePath": "Resources/Ocean.jpg",
       "AssetKind": "All",

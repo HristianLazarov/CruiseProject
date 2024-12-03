@@ -1,21 +1,56 @@
 ﻿@inherits LayoutComponentBase
 
+<style>
+    .top-row {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        width: 100%;
+    }
+
+        .top-row a {
+            margin: 0 auto;
+            order: 2;
+        }
+
+        .top-row h1 {
+            margin-left: auto;
+            order: 3;
+        }
+
+        .top-row button {
+            margin-right: auto;
+            order: 1;
+        }
+
+    .button {
+        border-style: none;
+        color: black;
+        background-image: linear-gradient(white, lightblue);
+        border-radius: 12px;
+        padding: 8px 16px;
+        cursor: pointer;
+        text-align: center
+    }
+</style>
+
 <script>
     function toggleNavVisibility() {
         var navElement = document.getElementsByClassName("sidebar")[0];
         navElement.style.display = (navElement.style.display === "none") ? "block" : "none";
     }
 </script>
+
 <div class="page">
     <div class="sidebar">
-        <NavMenu />
+        <NavMenu/>
     </div>
 
     <main>
-        <div class="top-row" style="display: inline-flex; inline-size: 100%">
-            <img src="Resources/logo.png" height="50px" width="50px" style="align-self: flex-start">
-            <h1 style="right: 40px; align-self: flex-end">Cruiser</h1>
-            <input type="checkbox" title="Navigation menu" class="navbar-toggler" onclick="toggleNavVisibility()" />
+        <div class="top-row">
+            <button onclick="toggleNavVisibility()" class="button button4">Show me more</button>
+            <a href="/"><img src="Resources/logo.png" height="50px" width="50px"></a>
+            <h1>Cruiser</h1>
         </div>
 
         <article class="content px-4">
@@ -23,6 +58,7 @@
         </article>
     </main>
 </div>
+
 
 <div id="blazor-error-ui">
     An unhandled error has occurred.

@@ -1,0 +1,71 @@
+﻿@page "/Login"
+@rendermode InteractiveServer
+
+<style>
+    html, body {
+        height: 100%; /* Ensure the body takes the full height of the viewport */
+        margin: 0; /* Remove any default margin */
+    }
+
+    .center-container {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 100vh; /* Full height of the viewport */
+        background-color: #f9f9f9; /* Optional background for aesthetics */
+        position: relative; /* Needed for transform */
+    }
+
+    .div {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+        align-self: center;
+        border-style: solid;
+        border-color: lightblue;
+        border-radius: 12px;
+        padding: 30px; 
+        width: 400px; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: white; 
+        transform: translateY(-10%);
+        position: relative; 
+        z-index: 1;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input {
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+    .login_logo {
+        position: absolute; 
+        top: 20%; 
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+</style>
+
+<div class="center-container">
+    <img src="Resources/logo.png" class="login_logo" height="100px" width="100px">
+    <div class="div">
+        <label>Email</label>
+        <input type="text" />
+        <label>Password</label>
+        <input type="password" />
+        <button class="button">log in</button>
+    </div>
+</div>
+
+@code {
+
+}
+
