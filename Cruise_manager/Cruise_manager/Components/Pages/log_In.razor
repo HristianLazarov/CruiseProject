@@ -3,33 +3,33 @@
 
 <style>
     html, body {
-        height: 100%; /* Ensure the body takes the full height of the viewport */
-        margin: 0; /* Remove any default margin */
+        height: 100%;
+        margin: 0;
     }
 
     .center-container {
         display: flex;
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-        height: 100vh; /* Full height of the viewport */
-        background-color: #f9f9f9; /* Optional background for aesthetics */
-        position: relative; /* Needed for transform */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f9f9f9;
+        position: relative;
     }
 
     .div {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, auto);
+        grid-template-rows: repeat(6, auto);
         align-self: center;
         border-style: solid;
         border-color: lightblue;
         border-radius: 12px;
-        padding: 30px; 
-        width: 400px; 
+        padding: 30px;
+        width: 400px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        background-color: white; 
+        background-color: white;
         transform: translateY(-10%);
-        position: relative; 
+        position: relative;
         z-index: 1;
     }
 
@@ -45,27 +45,26 @@
     }
 
     .login_logo {
-        position: absolute; 
-        top: 20%; 
+        position: absolute;
+        top: 20%;
         left: 50%;
         transform: translateX(-50%);
         z-index: 2;
     }
 
+    .sign {
+        text-align: center;
+    }
 </style>
 
 <div class="center-container">
     <img src="Resources/logo.png" class="login_logo" height="100px" width="100px">
     <div class="div">
-        <label>Email</label>
+        <label>Name</label>
         <input type="text" />
         <label>Password</label>
         <input type="password" />
         <button class="button">log in</button>
+        <a class="sign" href="Signup">Don't have one? Sign up!</a>
     </div>
 </div>
-
-@code {
-
-}
-
