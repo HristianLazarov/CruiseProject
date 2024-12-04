@@ -3,7 +3,7 @@
 <style>
     .top-row {
         display: flex;
-        align-items: center; 
+        align-items: center;
         justify-content: space-between;
         width: 100%;
     }
@@ -24,32 +24,40 @@
         }
 
     .button {
-        border-style: none;
+        border: none;
         color: black;
         background-image: linear-gradient(white, lightblue);
         border-radius: 12px;
         padding: 8px 16px;
         cursor: pointer;
-        text-align: center
+        text-align: center;
     }
+
+    /* Optional styling for sidebar */
+    .sidebar {
+        display: block;
+        z-index: 10;
+    }
+
 </style>
 
 <script>
     function toggleNavVisibility() {
-        var navElement = document.getElementsByClassName("sidebar")[0];
+        var navElement = document.getElementsByClassName("Nav")[0];
         navElement.style.display = (navElement.style.display === "none") ? "block" : "none";
     }
 </script>
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu/>
+    <div class="Nav">
+        <NavMenu />
     </div>
+
 
     <main>
         <div class="top-row">
-            <button onclick="toggleNavVisibility()" class="button button4">Show me more</button>
-            <a href="/"><img src="Resources/logo.png" height="50px" width="50px"></a>
+            <button onclick="toggleNavVisibility()" class="button">Show me more</button>
+            <a href="/"><img src="Resources/logo.png" height="50px" width="50px" alt="Logo"></a>
             <h1>Cruiser</h1>
         </div>
 
@@ -58,7 +66,6 @@
         </article>
     </main>
 </div>
-
 
 <div id="blazor-error-ui">
     An unhandled error has occurred.

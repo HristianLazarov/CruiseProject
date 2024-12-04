@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "39Rxh7UyJmdG4Nn2I5WM3TgLAlXrAAor5j0YJ3tv68Y=",
+  "Hash": "rYfQdRhP+AOQ8bVLUlhchNiRdR5HIQpdG8AcT85Rsh8=",
   "Source": "Cruise_manager",
   "BasePath": "_content/Cruise_manager",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\1.png",
+      "SourceId": "Cruise_manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "BasePath": "_content/Cruise_manager",
+      "RelativePath": "Resources/1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\1.png"
     },
     {
       "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\logo.png",
