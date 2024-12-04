@@ -166,13 +166,13 @@ main[b-mk92hyjjou] {
 
 .nav-scrollable[b-hhm9r1q55d] {
     display: none;
-    position: fixed; /* Position navbar on the left */
-    top: 3.5rem; /* Offset from top */
+    position: fixed;
+    top: 3.5rem; 
     left: 0;
-    height: 100vh; /* Full screen height */
-    width: 16rem; /* Set a fixed width for the navbar */
+    height: 100vh;
+    width: 16rem; 
     background-color: rgba(0,0,0,0.8);
-    overflow-y: auto; /* Allow scrolling if content exceeds the height */
+    overflow-y: auto;
 }
 
 .navbar-toggler:checked ~ .nav-scrollable[b-hhm9r1q55d] {
@@ -180,7 +180,7 @@ main[b-mk92hyjjou] {
 }
 
 .flex-column[b-hhm9r1q55d] {
-    align-content: flex-start; /* Align content to the top */
+    align-content: flex-start;
 }
 
 @media (min-width: 641px) {
