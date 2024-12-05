@@ -8,19 +8,21 @@
         width: 100%;
     }
 
+        .top-row button {
+            order: 1;
+            margin-right: auto;
+        }
+
         .top-row a {
-            margin: 0 auto;
             order: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .top-row h1 {
-            margin-left: auto;
             order: 3;
-        }
-
-        .top-row button {
-            margin-right: auto;
-            order: 1;
+            margin-left: auto;
         }
 
     .button {
@@ -32,13 +34,6 @@
         cursor: pointer;
         text-align: center;
     }
-
-    /* Optional styling for sidebar */
-    .sidebar {
-        display: block;
-        z-index: 10;
-    }
-
 </style>
 
 <script>
