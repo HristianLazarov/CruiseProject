@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OXQIWOFv8rDw3W5VHO5nwm0Y1vHDHValBzcuRe9aaRs=",
+  "Hash": "VrM8B18exlcyTOhTIqwtR5ZnvMfdM+jR2yC3qWMvuwE=",
   "Source": "Cruise_manager",
   "BasePath": "_content/Cruise_manager",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Resources\\4.png"
+    },
+    {
+      "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\Hamburger.png",
+      "SourceId": "Cruise_manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\",
+      "BasePath": "_content/Cruise_manager",
+      "RelativePath": "Resources/Hamburger.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\Hamburger.png"
     },
     {
       "Identity": "C:\\Users\\Християн\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\wwwroot\\Resources\\logo.png",
