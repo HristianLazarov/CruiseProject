@@ -41,19 +41,6 @@
           "SelectedChildIndex": 11,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cruise_manager",
-              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Cruise_manager.csproj",
-              "RelativeDocumentMoniker": "Cruise_manager\\Cruise_manager.csproj",
-              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Cruise_manager.csproj",
-              "RelativeToolTip": "Cruise_manager\\Cruise_manager.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-05T13:18:15.789Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
@@ -83,6 +70,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cruise_manager.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Cruise_manager.csproj",
+              "RelativeDocumentMoniker": "Cruise_manager\\Cruise_manager.csproj",
+              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Cruise_manager.csproj",
+              "RelativeToolTip": "Cruise_manager\\Cruise_manager.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T13:18:15.789Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Counter.razor",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Counter.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T13:16:11.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:16:11.659Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Home.razor",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T13:32:48.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T13:32:48.211Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Book.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T10:57:24.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T10:57:24.826Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Log_In.razor",
               "ViewState": "AQIAADYAAAAAAAAAAAAAACEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T13:16:08.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:16:08.131Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "Cruise_manager\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T14:30:34.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T14:30:34.55Z"
             }
           ]
         }

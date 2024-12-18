@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Components\Data\" />
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
   </ItemGroup>
 
 </Project>
