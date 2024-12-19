@@ -4,11 +4,21 @@ namespace Cruise_manager.Components.Data
 {
     public class Database
     {
-        static void DatabaseStart() 
+        public static void DatabaseStart() 
         {
-            string connectiontring = "Server=Cruise;Database=cruise;User ID=root;Password=toor;";
-            using (MySqlConnection connection = new MySqlConnection(connectiontring))
+            string connectionString = "Server=localhost;Database=cruise;User=root;Password=toor;Port=3306;";
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
+                connection.Open();
+                string query = "SELECT * FROM cruises";
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                using (MySqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Console.WriteLine(reader["column_name"]);
+                    }
+                }
             }
         }
     }
