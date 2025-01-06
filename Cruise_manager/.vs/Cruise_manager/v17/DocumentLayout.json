@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\cruise_manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\cruise_manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\pages\\sign_up.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\pages\\sign_up.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,16 +15,20 @@
       "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\pages\\book.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\pages\\log_in.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\pages\\log_in.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\components\\data\\workers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\components\\data\\workers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|c:\\users\\\u0445\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\cruiseproject\\cruise_manager\\cruise_manager\\cruise_manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1B0C0B7-B32A-4C6B-82FB-4762F2CC9053}|Cruise_manager\\Cruise_manager.csproj|solutionrelative:cruise_manager\\cruise_manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,112 +71,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Data\\Database.cs",
-              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Data\\Database.cs",
-              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Data\\Database.cs*",
-              "RelativeToolTip": "Cruise_manager\\Components\\Data\\Database.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T14:44:50.113Z",
+              "Title": "Sign_Up.razor",
+              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Sign_Up.razor",
+              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Pages\\Sign_Up.razor",
+              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Sign_Up.razor*",
+              "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Sign_Up.razor*",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwEkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T14:38:20.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Program.cs",
-              "RelativeDocumentMoniker": "Cruise_manager\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Program.cs",
-              "RelativeToolTip": "Cruise_manager\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T14:39:49.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cruise_manager.csproj",
-              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Cruise_manager.csproj",
-              "RelativeDocumentMoniker": "Cruise_manager\\Cruise_manager.csproj",
-              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Cruise_manager.csproj",
-              "RelativeToolTip": "Cruise_manager\\Cruise_manager.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-05T13:18:15.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "Cruise_manager\\Components\\Pages\\Counter.razor",
               "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Counter.razor",
               "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T13:16:11.659Z"
+              "WhenOpened": "2025-01-06T14:21:16.54Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBoAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T13:32:48.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Book.razor",
-              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Book.razor",
-              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Pages\\Book.razor",
-              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Book.razor",
-              "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Book.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T10:57:24.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Cruise_manager\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAACYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T13:16:21.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Log_In.razor",
-              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Log_In.razor",
-              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Pages\\Log_In.razor",
-              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Log_In.razor",
-              "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Log_In.razor",
-              "ViewState": "AQIAADMAAAAAAAAAAIBJwCEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T13:16:08.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Cruise_manager\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Cruise_manager\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T14:30:34.55Z"
+              "WhenOpened": "2025-01-06T14:20:17.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Log_In.razor",
+              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Log_In.razor",
+              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Pages\\Log_In.razor",
+              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Log_In.razor",
+              "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Log_In.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T13:16:08.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.razor",
+              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Book.razor",
+              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Pages\\Book.razor",
+              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Pages\\Book.razor",
+              "RelativeToolTip": "Cruise_manager\\Components\\Pages\\Book.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T10:57:24.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Workers.cs",
+              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Data\\Workers.cs",
+              "RelativeDocumentMoniker": "Cruise_manager\\Components\\Data\\Workers.cs",
+              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Components\\Data\\Workers.cs",
+              "RelativeToolTip": "Cruise_manager\\Components\\Data\\Workers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:22:36.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cruise_manager.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Cruise_manager.csproj",
+              "RelativeDocumentMoniker": "Cruise_manager\\Cruise_manager.csproj",
+              "ToolTip": "C:\\Users\\\u0425\u0440\u0438\u0441\u0442\u0438\u044F\u043D\\source\\repos\\CruiseProject\\Cruise_manager\\Cruise_manager\\Cruise_manager.csproj",
+              "RelativeToolTip": "Cruise_manager\\Cruise_manager.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T13:18:15.789Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cruise_manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09d445e8d803183a7a53600f2a01e49a1b914583")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bcc7e7c6ee3f9f880f49e623040c218473dc77b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cruise_manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cruise_manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

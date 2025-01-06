@@ -1,0 +1,87 @@
+﻿@page "/Signup"
+@rendermode InteractiveServer
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .center-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f9f9f9;
+        padding: 10px;
+    }
+
+    .form-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        padding: 20px;
+        width: 100%;
+        max-width: 450px;
+        border: 1px solid lightblue;
+        border-radius: 12px;
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        max-height: 90%;
+        overflow-y: auto;
+    }
+
+    .login_logo {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    .sign {
+        text-align: center;
+        margin-top: 15px;
+    }
+</style>
+
+<div class="center-container">
+    <img src="Resources/logo.png" class="login_logo" height="100px" width="100px">
+    <div class="form-container">
+        <label>Username</label>
+        <input type="text" />
+        <label>Password</label>
+        <input type="text" />
+        <label>ЕГН</label>
+        <label>First name</label>
+        <input type="text" />
+        <label>Last name</label>
+        <input type="text" />
+        <label>ЕГН</label>
+        <input type="number" />
+        <label>Address</label>
+        <input type="text" />
+        <label>Phone number</label>
+        <input type="number" />
+        <label>Email</label>
+        <input type="text" />
+        <button class="button">Make user</button>
+    </div>
+</div>

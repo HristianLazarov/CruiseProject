@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dfSW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Християн/source/repos/CruiseProject/Cruise_manager/Cruise_manager/Components/Pages/Sign_Up.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTaWduX1VwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Християн/source/repos/CruiseProject/Cruise_manager/Cruise_manager/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
