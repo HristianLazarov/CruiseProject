@@ -2,7 +2,6 @@ using Cruise_manager.Components;
 using Cruise_manager.Components.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-Database.DatabaseStart();
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
