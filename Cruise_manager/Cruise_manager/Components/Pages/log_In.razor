@@ -10,12 +10,16 @@
     }
 
     .center-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
         display: flex;
         justify-content: center;
         align-items: center;
-        position: relative;
-        height: calc(100vh - 60px);
         pointer-events: auto;
+        z-index: 10;
     }
 
     .div {
@@ -48,12 +52,11 @@
 
     .login_logo {
         position: absolute;
-        top: 20%;
+        top: -33%;
         left: 50%;
         transform: translateX(-50%);
-        z-index: 2;
+        z-index: 11;
     }
-
     .sign {
         text-align: center;
     }

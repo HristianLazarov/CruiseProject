@@ -5,7 +5,7 @@ namespace Cruise_manager.Components.Data
 {
     public class Database
     {
-        public static void AddWorkerToDB(Workers worker) 
+        public static void AddWorkerToDB(Workers worker)
         {
             string connectionString = "Server=localhost;Database=cruise;User=root;Password=toor;Port=3306;";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -39,5 +39,42 @@ namespace Cruise_manager.Components.Data
                 }
             }
         }
+        public static async Task<List<Cruises>> GetCruises()
+        {
+            string connectionString = "Server=localhost;Database=cruise;User=root;Password=toor;Port=3306;";
+            List<Cruises> cruiseList = new List<Cruises>();
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT cruise_id, location_from, location_to, departure_datetime, arrival_datetime, cruise_type, unique_cruise_number, captain_name, passenger_capacity, business_class_capacity FROM Cruises";
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    using (MySqlDataReader reader = (MySqlDataReader)await command.ExecuteReaderAsync()) // Async reading
+                    {
+                        while (await reader.ReadAsync()) // Async read
+                        {
+                            var cruise = new Cruises(
+                                reader["location_from"].ToString(),
+                                reader["location_to"].ToString(),
+                                Convert.ToDateTime(reader["departure_datetime"]),
+                                Convert.ToDateTime(reader["arrival_datetime"]),
+                                reader["cruise_type"].ToString(),
+                                reader["unique_cruise_number"].ToString(),
+                                reader["captain_name"].ToString(),
+                                Convert.ToInt32(reader["passenger_capacity"]),
+                                Convert.ToInt32(reader["business_class_capacity"])
+                            );
+
+                            cruiseList.Add(cruise);
+                        }
+                    }
+                }
+            }
+
+            return cruiseList;
+        }
+
     }
 }
