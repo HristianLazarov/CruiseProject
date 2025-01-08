@@ -1,7 +1,11 @@
 ﻿@page "/Signup"
 @rendermode InteractiveServer
+@inject NavigationManager NavigationManager
 @using Cruise_manager.Components.Data;
 @using Microsoft.AspNetCore.Mvc
+@using System.Web
+
+
 
 <style>
     html, body {
@@ -63,20 +67,16 @@
         margin-top: 15px;
     }
 </style>
-
-<div class="center-container">
-    <script>
-
-    </script>
+<div class="center-container" onload="Reroute()">
     <img src="Resources/logo.png" class="login_logo" height="100px" width="100px">
     <div class="form-container">
         <label>Username</label>
         <input type="text" id="username" @bind="Username"/>
-        <label></label>
+        <label>Password</label>
         <input type="text" id="password" @bind="Password" />
         <label>ЕГН</label>
         <input type="text" id="EGN" @bind="Email" />
-        <label>First name</label>Password
+        <label>First name</label>
         <input type="text" id="First" @bind="First" />
         <label>Last name</label>
         <input type="text" id="Last" @bind="Last" />
@@ -86,7 +86,7 @@
         <input type="text" id="Phone" @bind="Address" />
         <label>Email</label>
         <input type="text" id="Email" @bind="Phone" />
-        <button class="button" @onclick="()=> AddWorker()">Make user</button>
+        <button class="button" @onclick="()=> AddWorker()" >Make user</button>
     </div>
 </div>
 
@@ -99,11 +99,26 @@
     string EGN = "";
     string Address = "";
     string Phone = "";
+    bool FromLogin = false;
+
     public void AddWorker()
     {
         var newWorker = new Workers(Username, Password, Email, First, Last, EGN, Address, Phone, false);
         Database.AddWorkerToDB(newWorker);
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
+     protected override void OnInitialized()
+    {
+        var uri = new Uri(NavigationManager.Uri);
+        var query = HttpUtility.ParseQueryString(uri.Query);
+        FromLogin = query["fromLogin"] == "true";
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!FromLogin && firstRender) 
+        {
+            NavigationManager.NavigateTo("/Login");
+        }
     }
 
-    //add catch exeption
 }

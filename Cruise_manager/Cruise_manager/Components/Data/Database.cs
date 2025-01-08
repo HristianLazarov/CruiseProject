@@ -12,23 +12,30 @@ namespace Cruise_manager.Components.Data
             {
                 connection.Open();
                 string querry = "INSERT INTO Users (username, password, email, first_name, last_name, egn, address, phone_number) VALUES (@username, @password, @email, @first_name, @last_name, @egn, @address, @phone_number)";
-                using (MySqlCommand cmd = new MySqlCommand(querry, connection))
+                try
                 {
-                    // Add parameters
-                    cmd.Parameters.AddWithValue("@username", worker.UserName);
-                    cmd.Parameters.AddWithValue("@password", worker.Password);
-                    cmd.Parameters.AddWithValue("@email", worker.Email);
-                    cmd.Parameters.AddWithValue("@first_name", worker.Fname);
-                    cmd.Parameters.AddWithValue("@last_name", worker.Lname);
-                    cmd.Parameters.AddWithValue("@egn", worker.EGN);
-                    cmd.Parameters.AddWithValue("@address", worker.Address);
-                    cmd.Parameters.AddWithValue("@phone_number", worker.Phone);
+                    using (MySqlCommand cmd = new MySqlCommand(querry, connection))
+                    {
+                        // Add parameters
+                        cmd.Parameters.AddWithValue("@username", worker.UserName);
+                        cmd.Parameters.AddWithValue("@password", worker.Password);
+                        cmd.Parameters.AddWithValue("@email", worker.Email);
+                        cmd.Parameters.AddWithValue("@first_name", worker.Fname);
+                        cmd.Parameters.AddWithValue("@last_name", worker.Lname);
+                        cmd.Parameters.AddWithValue("@egn", worker.EGN);
+                        cmd.Parameters.AddWithValue("@address", worker.Address);
+                        cmd.Parameters.AddWithValue("@phone_number", worker.Phone);
 
-                    // Execute the query
-                    int rowsAffected = cmd.ExecuteNonQuery();
+                        // Execute the query
+                        int rowsAffected = cmd.ExecuteNonQuery();
 
-                    // Show message
-                    Console.WriteLine($"Rows affected: {rowsAffected}");
+                        // Show message
+                        Console.WriteLine($"Rows affected: {rowsAffected}");
+                    }
+                }
+                catch (Exception)
+                {
+                    throw;
                 }
             }
         }
