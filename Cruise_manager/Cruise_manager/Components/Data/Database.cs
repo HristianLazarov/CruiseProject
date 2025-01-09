@@ -76,5 +76,31 @@ namespace Cruise_manager.Components.Data
             return cruiseList;
         }
 
-    }
+        public static bool IsAdmin(string name, string password) 
+        {
+            string connectionString = "Server=localhost;Database=cruise;User=root;Password=toor;Port=3306;";
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                string querry = "SELECT * FROM users WHERE username = @Name AND password = @Password";
+                MySqlCommand command = new MySqlCommand(querry, connection);
+                command.Parameters.AddWithValue("@Name", name);
+                command.Parameters.AddWithValue("@Password", password);
+                MySqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    string storedPassword = reader["password"].ToString();
+                    string storedUsername = reader["username"].ToString();
+                    bool storedRole = Convert.ToBoolean(reader["role"]);
+                    if (password == storedPassword && name == storedUsername && storedRole == true)
+                    {
+                        return true;
+                    }
+                }
+            }
+            Console.WriteLine("Invalid User");
+            return false;
+        }
+    }   
 }

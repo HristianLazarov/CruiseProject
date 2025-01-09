@@ -1,6 +1,7 @@
 ﻿@page "/Login"
 @rendermode InteractiveServer
 @inject NavigationManager NavigationManager
+@using Cruise_manager.Components.Data;
 
 <style>
     html, body {
@@ -66,16 +67,21 @@
     <img src="Resources/logo.png" class="login_logo" height="100px" width="100px">
     <div class="div">
         <label>Name</label>
-        <input type="text" />
+        <input type="text" id="name" @bind="Name"/>
         <label>Password</label>
-        <input type="password" />
+        <input type="text" id="password" @bind="Password"/>
         <button class="button" @onclick="OfYouGo">Log In</button>
     </div>
 </div>
 
 @code {
+    string Name = "";
+    string Password = "";
     public void OfYouGo()
     {
-        NavigationManager.NavigateTo("/Signup?fromLogin=true");
+        if (Database.IsAdmin(Name, Password))
+        {
+            NavigationManager.NavigateTo("/Signup?fromLogin=true");
+        }
     }
 }
