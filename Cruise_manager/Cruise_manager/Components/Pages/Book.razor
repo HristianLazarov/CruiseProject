@@ -1,6 +1,7 @@
 ﻿@page "/Book"
 @inject NavigationManager NavigationManager
 @inject NavigationManager Navigation
+@using Cruise_manager.Components.Data
 @using Microsoft.AspNetCore.Components
 
 <style>
@@ -62,6 +63,22 @@
         text-align: center;
         margin-top: 15px;
     }
+
+    /* Flexbox style for aligning radio buttons and labels horizontally */
+    .ticket-type-container {
+        display: flex;
+        align-items: center; /* Ensures radio buttons and labels are aligned properly */
+        gap: 20px; /* Adds space between radio buttons */
+    }
+
+        .ticket-type-container div {
+            display: flex;
+            align-items: center; /* Ensures label is aligned to the left of the radio button */
+        }
+
+        .ticket-type-container label {
+            margin-left: 8px; /* Space between radio button and label text */
+        }
 </style>
 
 <div class="center-container">
@@ -83,6 +100,21 @@
         <input type="text" />
         <label>Email</label>
         <input type="text" />
+
+        @if (IsBothAvaliable())
+        {
+            <label>Ticket Type</label>
+            <div class="ticket-type-container">
+                <div>
+                    <input type="radio" name="ticketType" id="business" value="Business" />
+                    <label for="business">Business</label>
+                </div>
+                <div>
+                    <input type="radio" name="ticketType" id="passenger" value="Passenger" />
+                    <label for="passenger">Passenger</label>
+                </div>
+            </div>
+        }
         <button class="button">Book Now</button>
     </div>
 </div>
@@ -98,5 +130,21 @@
             CruiseId = Navigation.ToAbsoluteUri(Navigation.Uri).Query.Split("cruiseId=")[1];
             Console.WriteLine($"Cruise ID: {CruiseId}");
         }
+    }
+
+    public Cruises FindCruise()
+    {
+        List<Cruises> cruises = Database.GetCruises();
+        Cruises foundCruise = cruises.Find(x => x.Cruise_id == Convert.ToInt32(CruiseId));
+        return foundCruise;
+    }
+    public bool IsBothAvaliable()
+    {
+        Cruises cruise = FindCruise();
+        if (cruise.PassangerCap == 0 || cruise.BuisinessClassCap == 0)
+        {
+            return false;
+        }
+        return true;
     }
 }

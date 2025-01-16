@@ -61,7 +61,7 @@ else
     {
         try
         {
-            Cruises = await Database.GetCruises();
+            Cruises = Database.GetCruises();
             Console.WriteLine($"Cruises Count: {Cruises.Count}");
         }
         catch (Exception ex)

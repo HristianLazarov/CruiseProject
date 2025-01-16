@@ -39,7 +39,7 @@ namespace Cruise_manager.Components.Data
                 }
             }
         }
-        public static async Task<List<Cruises>> GetCruises()
+        public static List<Cruises> GetCruises()
         {
             string connectionString = "Server=localhost;Database=cruise;User=root;Password=toor;Port=3306;";
             List<Cruises> cruiseList = new List<Cruises>();
@@ -51,9 +51,9 @@ namespace Cruise_manager.Components.Data
 
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
-                    using (MySqlDataReader reader = (MySqlDataReader)await command.ExecuteReaderAsync()) // Async reading
+                    using (MySqlDataReader reader = command.ExecuteReader()) // Async reading
                     {
-                        while (await reader.ReadAsync()) // Async read
+                        while (reader.Read()) // Async read
                         {
                             var cruise = new Cruises(
                                 reader["location_from"].ToString(),
