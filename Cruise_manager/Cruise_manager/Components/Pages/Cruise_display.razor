@@ -1,33 +1,78 @@
 ﻿@page "/Cruise"
 @inject NavigationManager NavigationManager
-@using Cruise_manager.Components.Data;
+@rendermode InteractiveServer
+@using Cruise_manager.Components.Data
 @using Microsoft.AspNetCore.Mvc
 @using System.Web
 
 <style>
-    div{
-    
+    .contain {
+        border: 1px solid lightblue;
+        border-radius: 25px;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        pointer-events: auto;
+        z-index: 10;
+    }
+
+        .contain:hover {
+            background-color: lightblue;
+        }
+
+    .text-container {
+        margin-right: 10px;
+        flex-direction: column;
+        display: flex;
+    }
+    .places{
+        display: inline-block;
     }
 </style>
 
-<body>
-    @for(int i =0; i < Cruises.Count; i++)
+@if (Cruises != null && Cruises.Count > 0)
+{
+    @foreach (var cruises in Cruises)
     {
-        <div>
-            <h3>@Cruises[i].LocationFrom - @Cruises[i].LocationTo</h3>
-            <h3>@Cruises[i].DepartureTime - @Cruises[i].ArrivalTime</h3>
-            <button>Set</button>
-        </div>
+        if (cruises.PassangerCap > 0 || cruises.BuisinessClassCap  > 0)
+        {
+            <div class="contain" @onclick="() => ToBook(cruises.Cruise_id)">
+                <div class="text-container">
+                    <h4><b>@cruises.LocationFrom - @cruises.LocationTo</b></h4>
+                    <h6><i>@cruises.DepartureTime - @cruises.ArrivalTime</i></h6>
+                    <div class="places">
+                        <p><b>Pasaanger spots:</b> @cruises.PassangerCap </p>
+                        <p><b>Buisness class spots:</b> @cruises.BuisinessClassCap</p>
+                    </div>
+                </div>
+            </div>
+        }
     }
-</body>
+}
+else
+{
+    <p>Loading cruises...</p>
+}
 
 @code {
     List<Cruises> Cruises = new List<Cruises>();
 
     protected override async Task OnInitializedAsync()
     {
-        Cruises = await Database.GetCruises(); 
+        try
+        {
+            Cruises = await Database.GetCruises();
+            Console.WriteLine($"Cruises Count: {Cruises.Count}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading cruises: {ex.Message}");
+        }
     }
 
-
+    public void ToBook(int cruiseId)
+    {
+        Console.WriteLine($"Navigating to book page for Cruise ID: {cruiseId}");
+        NavigationManager.NavigateTo($"/Book?cruiseId={cruiseId}");
+    }
 }

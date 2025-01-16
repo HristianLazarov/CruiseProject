@@ -64,7 +64,8 @@ namespace Cruise_manager.Components.Data
                                 reader["unique_cruise_number"].ToString(),
                                 reader["captain_name"].ToString(),
                                 Convert.ToInt32(reader["passenger_capacity"]),
-                                Convert.ToInt32(reader["business_class_capacity"])
+                                Convert.ToInt32(reader["business_class_capacity"]),
+                                Convert.ToInt32(reader["cruise_id"])
                             );
 
                             cruiseList.Add(cruise);

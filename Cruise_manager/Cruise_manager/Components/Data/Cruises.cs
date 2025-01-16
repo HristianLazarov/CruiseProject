@@ -2,7 +2,7 @@
 {
     public class Cruises
     {
-        public Cruises(string locationFrom, string locationTo, DateTime departureTime, DateTime arrivalTime, string cruiseType, string uniqueCruiseNumber, string capitanName, int passangerCap, int buisinessClassCap)
+        public Cruises(string locationFrom, string locationTo, DateTime departureTime, DateTime arrivalTime, string cruiseType, string uniqueCruiseNumber, string capitanName, int passangerCap, int buisinessClassCap, int cruise_id)
         {
             LocationFrom = locationFrom;
             LocationTo = locationTo;
@@ -13,8 +13,9 @@
             CapitanName = capitanName;
             PassangerCap = passangerCap;
             BuisinessClassCap = buisinessClassCap;
+            Cruise_id = cruise_id;
         }
-
+        public int Cruise_id { get; set; }
         public string LocationFrom { get; set; }
         public string LocationTo { get; set; }
         public DateTime DepartureTime { get; set; }
